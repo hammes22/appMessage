@@ -18,6 +18,7 @@ class _MessagePageState extends State<MessagePage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Mensagens"),
+        centerTitle: true,
       ),
       body: _body(),
     );
