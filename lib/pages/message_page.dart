@@ -17,7 +17,7 @@ class _MessagePageState extends State<MessagePage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Platos"),
+        title: const Text("Mensagens"),
       ),
       body: _body(),
     );
