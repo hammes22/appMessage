@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:message_app/pages/message_page.dart';
+import 'package:message_app/providers/message_provider.dart';
 import 'package:message_app/repository/message_repository.dart';
 import 'package:provider/provider.dart';
 
@@ -7,7 +8,7 @@ void main() {
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider(
-        create: (context) => MessageRepository(),
+        create: (context) => MessageProvider(),
       )
     ],
     child: const MyApp(),
